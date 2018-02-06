@@ -1,0 +1,46 @@
+@import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/fonts.scss';
+
+
+.add__institution {
+  padding: 2rem;
+}
+
+.add__institution__form {
+  padding-top: 2rem;
+}
+
+.add__institution__form__field {
+  display: block;
+  padding: 1rem 0;
+}
+
+.add__institution__form__field__input {
+  height: 4rem;
+  background: transparent;
+  font-size: $FONT_3;
+  color: $VIEW_PORT_TEXT;
+  padding: 0 .5rem;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid $ACCENT;
+}
+
+.add__institution__form__field__input:focus {
+  outline: none;
+}
+
+
+.add__institution__form__field__button {
+  margin-top: 2rem;
+  height: 4rem;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $FONT_3;
+  color: $VIEW_PORT_TEXT;
+  border: 1px solid $ACCENT;
+  cursor: pointer;
+}

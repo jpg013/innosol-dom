@@ -1,0 +1,13 @@
+@import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
+
+$BAR_SHADOW: 0 2px 5px rgba(0, 0, 0, .26);
+
+.app__header__bar {
+  height: $APP_HEADER_BAR_HEIGHT;
+  background-color: $APP_HEADER_BAR_COLOR;
+  box-shadow: $BAR_SHADOW;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

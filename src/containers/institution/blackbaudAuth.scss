@@ -1,0 +1,54 @@
+@import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/fonts.scss';
+
+.blackbaud__auth__container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.blackbaud__auth__wrapper {
+  width: 400px;
+  box-shadow: $BOX_SHADOW_REGULAR;
+  background: $INTERFACE_LIGHT;
+  height: 200px;
+  border-radius: $BORDER_RADIUS;
+}
+
+.blackbaud__auth__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.blackbaud__auth__text--font {
+  padding: 2rem;
+  font-size: $FONT_4;
+  color: $VIEW_PORT_TEXT;
+  font-weight: $FONT_WEIGHT_REGULAR;
+}
+
+.blackbaud__auth__action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blackbaud__auth__action--button {
+  margin-top: 2rem;
+  height: 4rem;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $FONT_3;
+  color: $VIEW_PORT_TEXT;
+  border: 1px solid $ACCENT;
+  cursor: pointer;
+}

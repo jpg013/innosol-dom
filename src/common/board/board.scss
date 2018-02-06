@@ -1,0 +1,11 @@
+@import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
+
+.board {
+  position: fixed;
+  top: $APP_HEADER_BAR_HEIGHT;
+  left: $APP_SIDE_BAR_WIDTH;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}

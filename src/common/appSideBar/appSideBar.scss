@@ -1,0 +1,11 @@
+@import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
+
+.app__side__bar {
+  background: $APP_SIDE_BAR_COLOR;
+  width: $APP_SIDE_BAR_WIDTH;
+  position: fixed;
+  top: $APP_HEADER_BAR_HEIGHT;
+  left: 0;
+  bottom: 0;
+}

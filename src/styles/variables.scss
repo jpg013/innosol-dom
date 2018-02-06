@@ -1,0 +1,26 @@
+$APP_HEADER_BAR_HEIGHT: 56px;
+$APP_SIDE_BAR_WIDTH: 288px;
+
+$BOX_SHADOW_REGULAR: 0 0 2px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .2);
+$BOX_SHADOW_ACTIVE: 0 0 4px rgba(0, 0, 0, .12), 1px 3px 4px rgba(0, 0, 0, .2);
+$BOX_SHADOW_LIFTED: 0 0 5px 1px rgba(0, 0, 0, .12), 1px 3px 5px 2px rgba(0, 0, 0, .2);
+$BORDER_RADIUS: 2px;
+
+
+$RATING_BADGE: #222222;
+
+/**
+ * Timings and Animation
+ */
+$TIMING_VERY_SHORT: .1s;
+$TIMING_SHORT: .25s;
+$TIMING_MEDIUM: .33s;
+$TIMING_LONG: .5s;
+$TIMING_VERY_LONG: 1s;
+
+$TIMING_STANDARD: $TIMING_SHORT;
+
+$ANIMATION_STANDARD: ease-in-out;
+
+$TEXT_FIELD_TRANSFORM: translate(0, 15px);
+$TEXT_FIELD_TRANSFORM_RESET: translate(0, 0);

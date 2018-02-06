@@ -1,0 +1,155 @@
+@import './variables.scss';
+@import './timings.scss';
+
+// ======================================================
+// Fly In Dramatic
+// ======================================================
+.flyInDramatic-enter {
+  opacity: .01;
+  transform: translateY(5rem);
+}
+
+.flyInDramatic-enter.flyInDramatic-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity $TIMING_VERY_LONG cubic-bezier(0.4, 0.0, 0.4, 1), transform $TIMING_VERY_LONG cubic-bezier(0.4, 0.0, 0.4, 1);
+}
+
+.flyInDramatic-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.flyInDramatic-leave.flyInDramatic-leave-active {
+  opacity: .01;
+  transform: translateY(5rem);
+  transition: opacity $TIMING_VERY_LONG cubic-bezier(0.4, 0.0, 0.4, 1),  transform $TIMING_VERY_LONG cubic-bezier(0.4, 0.0, 0.4, 1);
+}
+
+.flyInDramatic-appear {
+  opacity: .01;
+  transform: translateY(5rem);
+}
+
+.flyInDramatic-appear.flyInDramatic-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity $TIMING_VERY_LONG cubic-bezier(0.4, 0.0, 0.4, 1), transform $TIMING_VERY_LONG cubic-bezier(0.4, 0.0, 0.4, 1);
+}
+
+// ======================================================
+// Fly In
+// ======================================================
+.flyIn-enter {
+  opacity: .01;
+  transform: translateY(3rem);
+}
+
+.flyIn-enter.flyIn-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity $TIMING_MEDIUM ease-out, transform $TIMING_MEDIUM ease-out;
+}
+
+.flyIn-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.flyIn-leave.flyIn-leave-active {
+  opacity: .01;
+  transform: translateY(3rem);
+  transition: opacity $TIMING_MEDIUM ease-out, transform $TIMING_MEDIUM ease-out;
+}
+
+.flyIn-appear {
+  opacity: .01;
+  transform: translateY(3rem);
+}
+
+.flyIn-appear.flyIn-appear-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity $TIMING_MEDIUM ease-out, transform $TIMING_MEDIUM ease-out;
+}
+
+// ======================================================
+// Fade In
+// ======================================================
+.fadeIn-enter {
+  opacity: .01;
+
+  &.fadeIn-enter-active {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+  }
+}
+
+.fadeIn-leave {
+  opacity: 1;
+
+  &.fadeIn-leave-active {
+    opacity: .01;
+    transition: opacity 200ms ease-in;
+  }
+}
+
+.fadeIn-appear {
+  opacity: .01;
+}
+
+.fadeIn-appear.fadeIn-appear-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+}
+
+// ======================================================
+// Fade In Long
+// ======================================================
+.fadeInLong-enter {
+  opacity: .01;
+
+  &.fadeInLong-enter-active {
+    opacity: 1;
+    transition: opacity 500ms cubic-bezier(0.4, 0.0, 0.4, 1);
+  }
+}
+
+.fadeInLong-leave {
+  opacity: 1;
+
+  &.fadeInLong-leave-active {
+    opacity: .01;
+    transition: opacity 500ms cubic-bezier(0.4, 0.0, 0.4, 1);
+  }
+}
+
+.fadeInLong-appear {
+  opacity: .01;
+}
+
+.fadeInLong-appear.fadeInLong-appear-active {
+  opacity: 1;
+  transition: opacity 500ms cubic-bezier(0.4, 0.0, 0.4, 1);
+}
+
+// ======================================================
+// Dropdown Scale Transition
+// ======================================================
+.dropdown__scale__transform-enter {
+  transform: scaleY(0);
+}
+
+.dropdown__scale__transform-enter.dropdown__scale__transform-enter-active {
+  transform: scaleY(1);
+  transition: transform $TIMING_SHORT $TIMING_EASE_IN_OUT_REGULAR;
+}
+
+.dropdown__scale__transform-leave {
+  opacity: 1;
+}
+
+.dropdown__scale__transform-leave.dropdown__scale__transform-leave-active {
+  opacity: .01;
+  transition: opacity $TIMING_SHORT $TIMING_EASE_IN_OUT_REGULAR;
+}

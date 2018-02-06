@@ -1,0 +1,18 @@
+// ======================================================
+// TIMINGS
+// ======================================================
+$TIMING_VERY_SHORT: 100ms;
+$TIMING_SHORT: 200ms;
+$TIMING_MEDIUM: 300ms;
+$TIMING_LONG: 500ms;
+$TIMING_EXTRA_LONG: 660ms;
+$TIMING_VERY_LONG: 1000ms;
+
+// ======================================================
+// TIMING FUNCTIONS
+// ======================================================
+$TIMING_EASE_IN_OUT_REGULAR: cubic-bezier(.5, 0, 0.4, 1);
+$TIMING_EASE_IN_OUT_STRONG: cubic-bezier(.8, 0, 0.2, 1);
+$TIMING_EASE_IN_REGULAR: cubic-bezier(.8, .25, 0.85, .6);
+$TIMING_EASE_OUT_REGULAR: cubic-bezier(.25, .3, .33, .88);
+$TIMING_EASE_OUT_STRONG: cubic-bezier(.26, .5, .17, .88);

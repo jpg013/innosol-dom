@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+@import '../../styles/fonts.scss';
+@import '../../styles/colors.scss';
+
+.institution__card {
+  width: 400px;
+  background: $INTERFACE_LIGHT;
+  box-shadow: $BOX_SHADOW_REGULAR;
+  border-radius: $BORDER_RADIUS;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  margin: 2rem 2rem 0 0;
+}
+
+.institution__card__wrapper {
+  position: relative;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.institution__card__title {
+  font-size: $FONT_4;
+}

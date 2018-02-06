@@ -1,0 +1,28 @@
+@import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/fonts.scss';
+
+.institutions__list {
+  padding: 1rem;
+}
+
+.institutions__list__header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.institutions__list__header__title {
+  font-size: 24px;
+  font-weight: 600;
+  padding-right: 1rem;
+}
+
+.institutions__list__header__add {
+  font-size: 16px;
+  color: $ACCENT;
+}
+
+.institutions__list__items {
+
+}
